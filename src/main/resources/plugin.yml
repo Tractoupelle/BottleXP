@@ -1,0 +1,17 @@
+name: BottleXP
+version: ${project.version}
+description: Public BottleXP plugin.
+author: Tractopelle
+
+main: fr.tractopelle.bottlexp.CorePlugin
+
+commands:
+  bottlexp:
+    description: Main command.
+    permission: bottlexp.admin
+
+permissions:
+  bottlexp.*:
+    description: Gives access to BottleXP command.
+    children:
+      bottlexp.admin: true

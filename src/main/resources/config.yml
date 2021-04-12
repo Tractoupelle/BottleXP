@@ -1,0 +1,25 @@
+##########################################################
+# Default configuration for BottleXP by Tractopelle#4020 #
+##########################################################
+
+PREFIX: "§6BottleXP §f» §e"
+
+MIN-LEVEL: 10
+
+USAGE:  "Usage: /bottexp or /bottlexp <niveau>"
+NO-PERMISSION: "You don't have the permission."
+NOT-PLAYER: "Only player can execute this command."
+NO-XP: "You don't have enough levels."
+MIN-LIMIT-XP: "Bottling xp minimum of %min% levels."
+ALL-IN-BOTTLEXP: "You have just put all your levels in bottlexp."
+NUMBER-IN-BOTTLEXP: "You have put %level% levels in bottlexp."
+NOT-A-NUMBER: "Please fill in numbers only."
+RECIEVE-XP: "You received %level% levels with your Bottle XP."
+
+BOTTLEXP:
+  MATERIAL: "EXP_BOTTLE"
+  SOUND: "LEVEL_UP"
+  NAME: "§6BottleXp - §e%level%"
+  LORE:
+    - "§7Right click and get the levels."
+
