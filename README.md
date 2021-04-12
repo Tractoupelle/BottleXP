@@ -1,6 +1,5 @@
 # BottleXP
 ## _Simple BottleXP fully configurable_
-## Before reading this readme, add a star :star:
 
 ## Develop by Tractopelle#4020
 
