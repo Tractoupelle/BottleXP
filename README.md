@@ -3,6 +3,6 @@
 
 ## Develop by Tractopelle#4020
 
-> This plugin is a simply plugin of bottlexp who can be full configurable in the config.yml
+> This plugin is a simply plugin of **BottleXP** who can be full configurable in the config.yml
 
 **Hoping that you like the plugin**
