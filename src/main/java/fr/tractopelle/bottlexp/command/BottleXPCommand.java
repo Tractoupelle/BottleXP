@@ -80,8 +80,8 @@ public class BottleXPCommand extends BCommand {
                         .setName(corePlugin.getConfiguration().getString("BOTTLEXP.NAME").replace("%level%", String.valueOf(level)))
                         .setLore(corePlugin.getConfiguration().getStringList("BOTTLEXP.LORE"));
 
-                player.sendMessage(prefix + corePlugin.getConfiguration().getString("ALL-IN-BOTTLEXP"));
-                player.setLevel(0);
+                player.sendMessage(prefix + corePlugin.getConfiguration().getString("NUMBER-IN-BOTTLEXP").replace("%level%", String.valueOf(level)));
+                player.setLevel(player.getLevel() - level);
 
                 if (player.getInventory().firstEmpty() == -1) {
                     player.getWorld().dropItem(player.getLocation(), bottleXP.toItemStack());
